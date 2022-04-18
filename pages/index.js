@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import tokenSaleAbi from '../pages/config/abi/TokenSaleContract.json'
+import tokenSaleAbi from './config/abi/TokenSaleContract.json'
 import {
   ChakraProvider,
   Box,
@@ -18,7 +18,7 @@ import {
   List,
   ListItem,
 } from '@chakra-ui/react';
-import SelectWalletModal from './components/modal';
+import SelectWalletModal from '../components/modal'
 import { useWeb3React } from '@web3-react/core';
 import {ethers} from "ethers";
 import {Col,Row} from "react-bootstrap"
@@ -26,8 +26,8 @@ import { useState, useEffect, useMemo} from 'react';
 import { ToastContainer, toast } from "react-toastify";
 import Web3Modal from 'web3modal';
 import Logo from '../images/logo.png'
-import theme from './components/theme';
-import Footer from './components/footer';
+import theme from '../components/theme';
+import Footer from '../components/footer';
 
 
 
