@@ -168,7 +168,8 @@ useEffect(() => {
               <Image
                 src={Logo}
                 height={35} 
-                width={35}/>
+                width={35}
+                alt='Gallerist Logo'/>
             </Link>
            </Box>
          <Spacer />
@@ -196,7 +197,7 @@ useEffect(() => {
                 <Text fontSize="lg"><b>Step 2:</b> Make you have ether deposited in your wallet.</Text>
               </ListItem>
               <ListItem>
-                <Text fontSize="lg"><b>Step 3:</b> Import the token into you wallet. <a href='https://www.alphr.com/add-token-metamask/' target="_blank">Click here to know more</a></Text>
+                <Text fontSize="lg"><b>Step 3:</b> Import the token into you wallet. <a rel="noreferrer" href='https://www.alphr.com/add-token-metamask/' target="_blank">Click here to know more</a></Text>
               </ListItem>
               <ListItem>
                 <Text fontSize="lg"><b>Step 4:</b> Connect your wallet.</Text>

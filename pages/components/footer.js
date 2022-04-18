@@ -14,10 +14,10 @@ export default function Footer(){
                 </Box>
                 <Box p={15}>
                     <Flex justifyContent='space-evenly'>
-                        <Text fontSize='xx-large'> <a href="https://www.twitter.com/GalleristToken" target='_blank'><FaTwitter className='mx-5'/></a></Text>
-                        <Text fontSize='xx-large'><a href="https://t.me/GalleristToken" target='_blank'><FaTelegramPlane className='mx-5'/></a></Text>
-                        <Text fontSize='xx-large'><a href="https://www.medium.com/@GalleristToken" target='_blank'><FaMediumM className='mx-5'/></a></Text>
-                        <Text fontSize='xx-large'><a href="https://discord.gg/cvxRnmMP" target='_blank'><FaDiscord className='mx-5'/></a></Text>
+                        <Text fontSize='xx-large'> <a href="https://www.twitter.com/GalleristToken" target='_blank' rel="noreferrer"><FaTwitter className='mx-5'/></a></Text>
+                        <Text fontSize='xx-large'><a href="https://t.me/GalleristToken" target='_blank' rel="noreferrer"><FaTelegramPlane className='mx-5'/></a></Text>
+                        <Text fontSize='xx-large'><a href="https://www.medium.com/@GalleristToken" target='_blank' rel="noreferrer"><FaMediumM className='mx-5'/></a></Text>
+                        <Text fontSize='xx-large'><a href="https://discord.gg/cvxRnmMP" target='_blank' rel="noreferrer"><FaDiscord className='mx-5'/></a></Text>
                     </Flex>
                 </Box>
                <Box p={15}>
